@@ -1,0 +1,94 @@
+//
+//  OpenConnectError.h
+//  OpenConnect Adapter
+//
+//  Created by Dmitriy Zharov on 06.05.2020.
+//
+
+#import <Foundation/Foundation.h>
+
+
+NS_ASSUME_NONNULL_BEGIN
+
+
+FOUNDATION_EXPORT NSString * const OpenConnectAdapterErrorDomain;
+FOUNDATION_EXPORT NSString * const OpenConnectIdentityErrorDomain;
+
+FOUNDATION_EXPORT NSString * const OpenConnectAdapterErrorFatalKey;
+FOUNDATION_EXPORT NSString * const OpenConnectAdapterErrorMessageKey;
+
+
+/**
+ Коды ошибок OpenConnect
+ */
+typedef NS_ERROR_ENUM(OpenConnectAdapterErrorDomain, OpenConnectAdapterError) {
+	OpenConnectAdapterErrorConfigurationFailure = 1,
+	OpenConnectAdapterErrorCredentialsFailure,
+	OpenConnectAdapterErrorNetworkRecvError,
+	OpenConnectAdapterErrorNetworkEOFError,
+	OpenConnectAdapterErrorNetworkSendError,
+	OpenConnectAdapterErrorNetworkUnavailable,
+	OpenConnectAdapterErrorDecryptError,
+	OpenConnectAdapterErrorHMACError,
+	OpenConnectAdapterErrorReplayError,
+	OpenConnectAdapterErrorBufferError,
+	OpenConnectAdapterErrorCCError,
+	OpenConnectAdapterErrorBadSrcAddr,
+	OpenConnectAdapterErrorCompressError,
+	OpenConnectAdapterErrorResolveError,
+	OpenConnectAdapterErrorSocketProtectError,
+	OpenConnectAdapterErrorTUNReadError,
+	OpenConnectAdapterErrorTUNWriteError,
+	OpenConnectAdapterErrorTUNFramingError,
+	OpenConnectAdapterErrorTUNSetupFailed,
+	OpenConnectAdapterErrorTUNIfaceCreate,
+	OpenConnectAdapterErrorTUNIfaceDisabled,
+	OpenConnectAdapterErrorTUNError,
+	OpenConnectAdapterErrorTAPNotSupported,
+	OpenConnectAdapterErrorRerouteGatewayNoDns,
+	OpenConnectAdapterErrorTransportError,
+	OpenConnectAdapterErrorTCPOverflow,
+	OpenConnectAdapterErrorTCPSizeError,
+	OpenConnectAdapterErrorTCPConnectError,
+	OpenConnectAdapterErrorUDPConnectError,
+	OpenConnectAdapterErrorSSLError,
+	OpenConnectAdapterErrorSSLPartialWrite,
+	OpenConnectAdapterErrorEncapsulationError,
+	OpenConnectAdapterErrorEPKICertError,
+	OpenConnectAdapterErrorEPKISignError,
+	OpenConnectAdapterErrorHandshakeTimeout,
+	OpenConnectAdapterErrorKeepaliveTimeout,
+	OpenConnectAdapterErrorInactiveTimeout,
+	OpenConnectAdapterErrorConnectionTimeout,
+	OpenConnectAdapterErrorPrimaryExpire,
+	OpenConnectAdapterErrorTLSVersionMin,
+	OpenConnectAdapterErrorTLSAuthFail,
+	OpenConnectAdapterErrorCertVerifyFail,
+	OpenConnectAdapterErrorPEMPasswordFail,
+	OpenConnectAdapterErrorAuthFailed,
+	OpenConnectAdapterErrorClientHalt,
+	OpenConnectAdapterErrorClientRestart,
+	OpenConnectAdapterErrorRelay,
+	OpenConnectAdapterErrorRelayError,
+	OpenConnectAdapterErrorPauseNumber,
+	OpenConnectAdapterErrorReconnectNumber,
+	OpenConnectAdapterErrorKeyLimitRenegNumber,
+	OpenConnectAdapterErrorKeyStateError,
+	OpenConnectAdapterErrorProxyError,
+	OpenConnectAdapterErrorProxyNeedCreds,
+	OpenConnectAdapterErrorKevNegotiateError,
+	OpenConnectAdapterErrorKevPendingError,
+	OpenConnectAdapterErrorKevExpireNumber,
+	OpenConnectAdapterErrorPKTIDInvalid,
+	OpenConnectAdapterErrorPKTIDBacktrack,
+	OpenConnectAdapterErrorPKTIDExpire,
+	OpenConnectAdapterErrorPKTIDReplay,
+	OpenConnectAdapterErrorPKTIDTimeBacktrack,
+	OpenConnectAdapterErrorDynamicChallenge,
+	OpenConnectAdapterErrorEPKIError,
+	OpenConnectAdapterErrorEPKIInvalidAlias,
+	OpenConnectAdapterErrorUnknown
+};
+
+
+NS_ASSUME_NONNULL_END

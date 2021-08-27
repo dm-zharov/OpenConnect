@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "OpenSSL",
+        "repositoryURL": "https://github.com/dm-zharov/OpenSSL.git",
+        "state": {
+          "branch": "legacy1.0.2",
+          "revision": "e4330d71b9ef1e8b934c685b764af065169e3053",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
