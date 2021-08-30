@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2327F13B26D90F6000638717 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2327F13A26D90F5200638717 /* libxml2.2.tbd */; };
 		2388991926D9244400D05CAC /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 2388991826D9244400D05CAC /* OpenSSL */; };
+		23B1A1FC26DD13C400B80C40 /* OpenConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0872E57250900B80025DB9A /* OpenConnect.framework */; platformFilter = ios; };
+		23B1A1FD26DD13C400B80C40 /* OpenConnect.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0872E57250900B80025DB9A /* OpenConnect.framework */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		ACC0BAFE2679EF9A00357151 /* auth-globalprotect.c in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BAFA2679EF9800357151 /* auth-globalprotect.c */; };
 		ACC0BAFF2679EF9A00357151 /* pulse.c in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BAFB2679EF9800357151 /* pulse.c */; };
 		ACC0BB002679EF9A00357151 /* gpst.c in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BAFC2679EF9900357151 /* gpst.c */; };
@@ -26,7 +28,6 @@
 		E012B00125109F2F00EB4C41 /* OpenConnectTunnelSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF8791250A3BA200B2F20F /* OpenConnectTunnelSettings.h */; };
 		E012B00225109F2F00EB4C41 /* OpenConnectAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF8763250A3B0D00B2F20F /* OpenConnectAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E012B00325109F2F00EB4C41 /* OpenConnectAdapterEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF876B250A3B0E00B2F20F /* OpenConnectAdapterEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E012B0042510A05400EB4C41 /* OpenConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0872E57250900B80025DB9A /* OpenConnect.framework */; platformFilter = ios; };
 		E012B00D2510B7C600EB4C41 /* NSError+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF8768250A3B0D00B2F20F /* NSError+Message.m */; };
 		E012B00E2510B7C600EB4C41 /* OpenConnectError.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF8766250A3B0D00B2F20F /* OpenConnectError.m */; };
 		E012B00F2510B7C600EB4C41 /* NetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF8764250A3B0D00B2F20F /* NetworkInterfaceManager.m */; };
@@ -84,9 +85,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		23B1A1FE26DD13C400B80C40 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23B1A1FD26DD13C400B80C40 /* OpenConnect.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2327F13A26D90F5200638717 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
-		2388991226D9222D00D05CAC /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OpenSSL.xcframework; sourceTree = "<group>"; };
 		ACC0BAFA2679EF9800357151 /* auth-globalprotect.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "auth-globalprotect.c"; sourceTree = "<group>"; };
 		ACC0BAFB2679EF9800357151 /* pulse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pulse.c; sourceTree = "<group>"; };
 		ACC0BAFC2679EF9900357151 /* gpst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gpst.c; sourceTree = "<group>"; };
@@ -163,7 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E012B0042510A05400EB4C41 /* OpenConnect.framework in Frameworks */,
+				23B1A1FC26DD13C400B80C40 /* OpenConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +296,6 @@
 		E08C35BF24B457A0007853A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2388991226D9222D00D05CAC /* OpenSSL.xcframework */,
 				2327F13A26D90F5200638717 /* libxml2.2.tbd */,
 			);
 			name = Frameworks;
@@ -398,6 +411,7 @@
 				E012AFE525109DBF00EB4C41 /* Sources */,
 				E012AFE625109DBF00EB4C41 /* Frameworks */,
 				E012AFE725109DBF00EB4C41 /* Resources */,
+				23B1A1FE26DD13C400B80C40 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -562,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = B5MHTW4TA8;
@@ -589,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -663,6 +679,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
 				CLANG_WARN_BOOL_CONVERSION = NO;
 				CLANG_WARN_COMMA = NO;
@@ -725,6 +742,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

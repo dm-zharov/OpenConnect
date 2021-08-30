@@ -4,6 +4,38 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/OpenConnect.framework/Frameworks/OpenSSL.framework/Info.plist</key>
+		<data>
+		11ELSieAIHQmgmdnrgNY0iMkRZE=
+		</data>
+		<key>Frameworks/OpenConnect.framework/Frameworks/OpenSSL.framework/OpenSSL</key>
+		<data>
+		boO9C+Dr+XQCyyu5PBGP3dHCdy8=
+		</data>
+		<key>Frameworks/OpenConnect.framework/Frameworks/OpenSSL.framework/_CodeSignature/CodeResources</key>
+		<data>
+		h6QlbqtF5s1tM02NCWSRYq8mtd0=
+		</data>
+		<key>Frameworks/OpenConnect.framework/Info.plist</key>
+		<data>
+		REbHHkPp2JLMLsUvqjWoC2QIAVM=
+		</data>
+		<key>Frameworks/OpenConnect.framework/OpenConnect</key>
+		<data>
+		vnbdHsmFbMv5Z9DnOnaIvn5zfDE=
+		</data>
+		<key>Frameworks/OpenConnect.framework/README.DTLS</key>
+		<data>
+		7kiHlEEKyBcX6l0h0lBJCOzLeo8=
+		</data>
+		<key>Frameworks/OpenConnect.framework/_CodeSignature/CodeResources</key>
+		<data>
+		LK6RBDaM/dzN94Szf5I5qrbDnSo=
+		</data>
+		<key>Frameworks/OpenConnect.framework/config.h.in</key>
+		<data>
+		oyf9apoLnlmLj6O+tqc0f2Ql0Ps=
+		</data>
 		<key>Headers/NetworkInterfaceManager.h</key>
 		<data>
 		RdGD2U4MUIBIsTyYuCGj0vxRnK0=
@@ -14,7 +46,7 @@
 		</data>
 		<key>Headers/OpenConnectAdapter.h</key>
 		<data>
-		aw0S4uGYOJOB45T8FtsLtcH8WjI=
+		/dUbSv23dl9GLld1rltWDbQ4B18=
 		</data>
 		<key>Headers/OpenConnectAdapterDelegate.h</key>
 		<data>
@@ -55,6 +87,62 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/OpenConnect.framework/Frameworks/OpenSSL.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P4ym7y6djRSgvpawNe1mSph+1Hvl1oWTwlC4vb1JCe8=
+			</data>
+		</dict>
+		<key>Frameworks/OpenConnect.framework/Frameworks/OpenSSL.framework/OpenSSL</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qECjKBuqCSSPkSonH7M/Yj4HTEn7R7973tSs9oNrv/M=
+			</data>
+		</dict>
+		<key>Frameworks/OpenConnect.framework/Frameworks/OpenSSL.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gwSpj2FCdiib2IFgc97Mg8F82phQKjKd/ZWfK6O5KFE=
+			</data>
+		</dict>
+		<key>Frameworks/OpenConnect.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+lSQjqyGHX3QMmx/L5m8/JnowS9AOP3xKYkJ2C4SbUg=
+			</data>
+		</dict>
+		<key>Frameworks/OpenConnect.framework/OpenConnect</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9GHrnD9ra0EdyJAUZT/y/4lW43bhFQl0SSPWNmtiaZg=
+			</data>
+		</dict>
+		<key>Frameworks/OpenConnect.framework/README.DTLS</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i0oa/+yhpAPqfgxGnQviGftFYGE7kEIOEHHYf6J6ij4=
+			</data>
+		</dict>
+		<key>Frameworks/OpenConnect.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s8UdBS1DdMirFIaAPExu1VCP06omwkpWaO0b4SpzRAI=
+			</data>
+		</dict>
+		<key>Frameworks/OpenConnect.framework/config.h.in</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T8WLWIhWWm5v9SRVX6VKU/YXL0Kr7M6wRBG6OAAkW5Y=
+			</data>
+		</dict>
 		<key>Headers/NetworkInterfaceManager.h</key>
 		<dict>
 			<key>hash2</key>
@@ -73,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0tIXbgCpH5/ylp5MX7NA+jQQiUvQgmjt2Wqb8BOtGGs=
+			afveTRdnP2O+JUhlwoEqE9kxT6gqIFoaQmE7dP4w/M0=
 			</data>
 		</dict>
 		<key>Headers/OpenConnectAdapterDelegate.h</key>

@@ -1,6 +1,5 @@
 //
 //  OpenConnectAdapter.h
-//  Senat
 //
 //  Created by Dmitriy Zharov on 06.05.2020.
 //

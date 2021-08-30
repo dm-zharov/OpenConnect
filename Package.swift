@@ -10,19 +10,11 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "OpenConnect",
-            targets: ["OpenConnect"]
-        ),
-        .library(
             name: "OpenConnectAdapter",
             targets: ["OpenConnectAdapter"]
         ),
     ],
     targets: [
-        .binaryTarget(
-            name: "OpenConnect",
-            path: "Frameworks/OpenConnect.xcframework"
-        ),
         .binaryTarget(
             name: "OpenConnectAdapter",
             path: "Frameworks/OpenConnectAdapter.xcframework"
