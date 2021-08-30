@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/OpenConnect.framework/Frameworks/OpenSSL.framework/OpenSSL</key>
 		<data>
-		bOSQZoYSd7RBrHe0l9I+mu3NWr0=
+		OtFK+Bji93KPSOiunfMN1JjKDxA=
 		</data>
 		<key>Frameworks/OpenConnect.framework/Frameworks/OpenSSL.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/OpenConnect.framework/OpenConnect</key>
 		<data>
-		efoCb6k4Xf6Ttq0aBrc7gjul6FA=
+		bR47alPcKHuR6YeKpZZI11vSXZQ=
 		</data>
 		<key>Frameworks/OpenConnect.framework/README.DTLS</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/OpenConnect.framework/_CodeSignature/CodeResources</key>
 		<data>
-		TolKl7+5V20pT7/usex3rtdRokA=
+		xO/ziVZTJwp9qh8CNaX6oxmRT9A=
 		</data>
 		<key>Frameworks/OpenConnect.framework/config.h.in</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e3NhzKUPyejA35eeg1odBYzoQRB2fA26vfVFq39rI40=
+			WYaZrKnYX4LA/aS+FANJBEE3PPXtUsoTAMniE6rI7qI=
 			</data>
 		</dict>
 		<key>Frameworks/OpenConnect.framework/Frameworks/OpenSSL.framework/_CodeSignature/CodeResources</key>
@@ -119,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cWSQBFCx7jC5ui52NlJW6B+1WfrIHXajYQrPvyfsQ7E=
+			n4D0KX/pEUf6X1aXyKDRoebP0EO9Yj5LW3pNcoq0s5k=
 			</data>
 		</dict>
 		<key>Frameworks/OpenConnect.framework/README.DTLS</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+UYhoyrL5aiMaX/AfR1ORW1KLi2L8YSp70LnXnL1M1A=
+			a0Snx2dTg5pR8UJBp7fton9nOMXZ2TuAAXRva1zzk+c=
 			</data>
 		</dict>
 		<key>Frameworks/OpenConnect.framework/config.h.in</key>
