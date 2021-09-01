@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2327F13B26D90F6000638717 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2327F13A26D90F5200638717 /* libxml2.2.tbd */; };
 		2388991926D9244400D05CAC /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 2388991826D9244400D05CAC /* OpenSSL */; };
-		23B1A1FC26DD13C400B80C40 /* OpenConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0872E57250900B80025DB9A /* OpenConnect.framework */; platformFilter = ios; };
+		2399758A26DFEC3C00F721B4 /* OpenConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0872E57250900B80025DB9A /* OpenConnect.framework */; platformFilter = ios; };
 		ACC0BAFE2679EF9A00357151 /* auth-globalprotect.c in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BAFA2679EF9800357151 /* auth-globalprotect.c */; };
 		ACC0BAFF2679EF9A00357151 /* pulse.c in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BAFB2679EF9800357151 /* pulse.c */; };
 		ACC0BB002679EF9A00357151 /* gpst.c in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BAFC2679EF9900357151 /* gpst.c */; };
@@ -162,7 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B1A1FC26DD13C400B80C40 /* OpenConnect.framework in Frameworks */,
+				2399758A26DFEC3C00F721B4 /* OpenConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +419,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2399758E26DFEC5B00F721B4 /* PBXTargetDependency */,
 			);
 			name = OpenConnect;
 			packageProductDependencies = (
@@ -547,6 +548,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2399758E26DFEC5B00F721B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 2399758D26DFEC5B00F721B4 /* OpenSSL */;
+		};
 		E012B0072510A05400EB4C41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
@@ -998,6 +1003,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		2388991826D9244400D05CAC /* OpenSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2388991726D9244400D05CAC /* XCRemoteSwiftPackageReference "OpenSSL" */;
+			productName = OpenSSL;
+		};
+		2399758D26DFEC5B00F721B4 /* OpenSSL */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2388991726D9244400D05CAC /* XCRemoteSwiftPackageReference "OpenSSL" */;
 			productName = OpenSSL;

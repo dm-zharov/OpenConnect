@@ -14,6 +14,9 @@ let package = Package(
             targets: ["OpenConnectAdapter"]
         ),
     ],
+    dependencies: [
+        .package(name: "OpenSSL", url: "https://github.com/dm-zharov/OpenSSL.git", .branch("legacy1.0.2"))
+    ],
     targets: [
         .binaryTarget(
             name: "OpenConnectAdapter",
