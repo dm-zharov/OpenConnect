@@ -9,6 +9,7 @@
 #import <openssl/pem.h>
 #import <openssl/x509.h>
 #import <openssl/err.h>
+#import <openssl/bio.h>
 
 #import "NSError+Message.h"
 #import "OpenConnectError.h"

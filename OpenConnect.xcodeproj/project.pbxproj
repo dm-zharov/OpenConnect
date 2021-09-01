@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2327F13B26D90F6000638717 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2327F13A26D90F5200638717 /* libxml2.2.tbd */; };
-		2388991926D9244400D05CAC /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 2388991826D9244400D05CAC /* OpenSSL */; };
+		2361573926DFF3ED000E411E /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 2361573826DFF3ED000E411E /* OpenSSL */; };
 		2399758A26DFEC3C00F721B4 /* OpenConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0872E57250900B80025DB9A /* OpenConnect.framework */; platformFilter = ios; };
+		23B4C57726DFFDF200BF7FE3 /* OpenConnectAdapterEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B4C57626DFFDF200BF7FE3 /* OpenConnectAdapterEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACC0BAFE2679EF9A00357151 /* auth-globalprotect.c in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BAFA2679EF9800357151 /* auth-globalprotect.c */; };
 		ACC0BAFF2679EF9A00357151 /* pulse.c in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BAFB2679EF9800357151 /* pulse.c */; };
 		ACC0BB002679EF9A00357151 /* gpst.c in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BAFC2679EF9900357151 /* gpst.c */; };
@@ -26,7 +27,6 @@
 		E012B00025109F2F00EB4C41 /* OpenConnectConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF878F250A3BA200B2F20F /* OpenConnectConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E012B00125109F2F00EB4C41 /* OpenConnectTunnelSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF8791250A3BA200B2F20F /* OpenConnectTunnelSettings.h */; };
 		E012B00225109F2F00EB4C41 /* OpenConnectAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF8763250A3B0D00B2F20F /* OpenConnectAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E012B00325109F2F00EB4C41 /* OpenConnectAdapterEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF876B250A3B0E00B2F20F /* OpenConnectAdapterEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E012B00D2510B7C600EB4C41 /* NSError+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF8768250A3B0D00B2F20F /* NSError+Message.m */; };
 		E012B00E2510B7C600EB4C41 /* OpenConnectError.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF8766250A3B0D00B2F20F /* OpenConnectError.m */; };
 		E012B00F2510B7C600EB4C41 /* NetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF8764250A3B0D00B2F20F /* NetworkInterfaceManager.m */; };
@@ -68,7 +68,6 @@
 		E0397D632509FF2B00E8FCAE /* openconnect-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = E0397D3D2509FF2A00E8FCAE /* openconnect-internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E0397D642509FF2B00E8FCAE /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = E0397D3E2509FF2A00E8FCAE /* version.c */; };
 		E0397D652509FF2B00E8FCAE /* library.c in Sources */ = {isa = PBXBuildFile; fileRef = E0397D3F2509FF2A00E8FCAE /* library.c */; };
-		E0397D662509FF2B00E8FCAE /* config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = E0397D402509FF2B00E8FCAE /* config.h.in */; };
 		E0397D682509FF2B00E8FCAE /* http-auth.c in Sources */ = {isa = PBXBuildFile; fileRef = E0397D422509FF2B00E8FCAE /* http-auth.c */; };
 		E0397D692509FF2B00E8FCAE /* lzs.c in Sources */ = {isa = PBXBuildFile; fileRef = E0397D432509FF2B00E8FCAE /* lzs.c */; };
 		E0CF8737250A02CE00B2F20F /* openconnect.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CF8731250A013400B2F20F /* openconnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -86,6 +85,7 @@
 
 /* Begin PBXFileReference section */
 		2327F13A26D90F5200638717 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		23B4C57626DFFDF200BF7FE3 /* OpenConnectAdapterEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenConnectAdapterEvent.h; sourceTree = "<group>"; };
 		ACC0BAFA2679EF9800357151 /* auth-globalprotect.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "auth-globalprotect.c"; sourceTree = "<group>"; };
 		ACC0BAFB2679EF9800357151 /* pulse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pulse.c; sourceTree = "<group>"; };
 		ACC0BAFC2679EF9900357151 /* gpst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gpst.c; sourceTree = "<group>"; };
@@ -126,7 +126,6 @@
 		E0397D3D2509FF2A00E8FCAE /* openconnect-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "openconnect-internal.h"; sourceTree = "<group>"; };
 		E0397D3E2509FF2A00E8FCAE /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
 		E0397D3F2509FF2A00E8FCAE /* library.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = library.c; sourceTree = "<group>"; };
-		E0397D402509FF2B00E8FCAE /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
 		E0397D422509FF2B00E8FCAE /* http-auth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "http-auth.c"; sourceTree = "<group>"; };
 		E0397D432509FF2B00E8FCAE /* lzs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzs.c; sourceTree = "<group>"; };
 		E0872E57250900B80025DB9A /* OpenConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +139,6 @@
 		E0CF8768250A3B0D00B2F20F /* NSError+Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Message.m"; sourceTree = "<group>"; };
 		E0CF8769250A3B0D00B2F20F /* NSError+Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Message.h"; sourceTree = "<group>"; };
 		E0CF876A250A3B0D00B2F20F /* NetworkInterfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkInterfaceManager.h; sourceTree = "<group>"; };
-		E0CF876B250A3B0E00B2F20F /* OpenConnectAdapterEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenConnectAdapterEvent.h; sourceTree = "<group>"; };
 		E0CF877A250A3B3700B2F20F /* OpenConnectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenConnectAdapter.m; sourceTree = "<group>"; };
 		E0CF877B250A3B3700B2F20F /* OpenConnectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenConnectAdapter.h; sourceTree = "<group>"; };
 		E0CF877C250A3B3700B2F20F /* OpenConnectAdapterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenConnectAdapterDelegate.h; sourceTree = "<group>"; };
@@ -171,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2327F13B26D90F6000638717 /* libxml2.2.tbd in Frameworks */,
-				2388991926D9244400D05CAC /* OpenSSL in Frameworks */,
+				2361573926DFF3ED000E411E /* OpenSSL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +194,6 @@
 				E0CF8763250A3B0D00B2F20F /* OpenConnectAdapter-umbrella.h */,
 				E0CF8765250A3B0D00B2F20F /* OpenConnectAdapter.modulemap */,
 				E012AFEC25109DBF00EB4C41 /* Info.plist */,
-				E0CF876B250A3B0E00B2F20F /* OpenConnectAdapterEvent.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -234,6 +231,7 @@
 				E0CF877A250A3B3700B2F20F /* OpenConnectAdapter.m */,
 				E0CF877C250A3B3700B2F20F /* OpenConnectAdapterDelegate.h */,
 				E0CF877D250A3B3700B2F20F /* OpenConnectAdapterPacketFlow.h */,
+				23B4C57626DFFDF200BF7FE3 /* OpenConnectAdapterEvent.h */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -307,7 +305,6 @@
 				ACC0BAFC2679EF9900357151 /* gpst.c */,
 				ACC0BAFD2679EF9A00357151 /* oidc.c */,
 				ACC0BAFB2679EF9800357151 /* pulse.c */,
-				E0397D402509FF2B00E8FCAE /* config.h.in */,
 				E0397D342509FF2800E8FCAE /* cstp.c */,
 				E0397D1E2509FF2300E8FCAE /* digest.c */,
 				E0397D272509FF2500E8FCAE /* dtls.c */,
@@ -362,9 +359,9 @@
 				E012AFF825109F2F00EB4C41 /* OpenConnectError.h in Headers */,
 				E012AFFC25109F2F00EB4C41 /* OpenConnectAdapterPacketFlow.h in Headers */,
 				E012AFFE25109F2F00EB4C41 /* OpenConnectPrivateKey.h in Headers */,
-				E012B00325109F2F00EB4C41 /* OpenConnectAdapterEvent.h in Headers */,
 				E012AFF925109F2F00EB4C41 /* NetworkInterfaceManager.h in Headers */,
 				E012AFFA25109F2F00EB4C41 /* OpenConnectAdapter.h in Headers */,
+				23B4C57726DFFDF200BF7FE3 /* OpenConnectAdapterEvent.h in Headers */,
 				E012AFFB25109F2F00EB4C41 /* OpenConnectAdapterDelegate.h in Headers */,
 				E012B00225109F2F00EB4C41 /* OpenConnectAdapter-umbrella.h in Headers */,
 				E012AFF725109F2F00EB4C41 /* NSError+Message.h in Headers */,
@@ -423,7 +420,7 @@
 			);
 			name = OpenConnect;
 			packageProductDependencies = (
-				2388991826D9244400D05CAC /* OpenSSL */,
+				2361573826DFF3ED000E411E /* OpenSSL */,
 			);
 			productName = OpenConnect;
 			productReference = E0872E57250900B80025DB9A /* OpenConnect.framework */;
@@ -457,7 +454,7 @@
 			);
 			mainGroup = E08C351D24B35238007853A8;
 			packageReferences = (
-				2388991726D9244400D05CAC /* XCRemoteSwiftPackageReference "OpenSSL" */,
+				239AAE5E26DFF38A0053DD28 /* XCRemoteSwiftPackageReference "OpenSSL" */,
 			);
 			productRefGroup = E08C352824B35238007853A8 /* Products */;
 			projectDirPath = "";
@@ -482,7 +479,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0397D462509FF2B00E8FCAE /* README.DTLS in Resources */,
-				E0397D662509FF2B00E8FCAE /* config.h.in in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +563,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = marker;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -581,7 +578,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "OpenConnectAdapter/Supporting Files/OpenConnectAdapter.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.OpenConnectAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -610,7 +606,7 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -652,7 +648,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "OpenConnectAdapter/Supporting Files/OpenConnectAdapter.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -697,6 +692,7 @@
 				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphoneos*]" = x84_64;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREFIX_HEADER = "OpenConnect/Supporting Files/openconnect-prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
@@ -713,7 +709,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 8.10.0;
 				MODULEMAP_FILE = "OpenConnect/Supporting Files/openconnect.modulemap";
 				ONLY_ACTIVE_ARCH = YES;
@@ -806,7 +801,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 8.10.0;
 				MODULEMAP_FILE = "OpenConnect/Supporting Files/openconnect.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -999,12 +993,20 @@
 				kind = branch;
 			};
 		};
+		239AAE5E26DFF38A0053DD28 /* XCRemoteSwiftPackageReference "OpenSSL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dm-zharov/OpenSSL.git";
+			requirement = {
+				branch = legacy1.0.2;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2388991826D9244400D05CAC /* OpenSSL */ = {
+		2361573826DFF3ED000E411E /* OpenSSL */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2388991726D9244400D05CAC /* XCRemoteSwiftPackageReference "OpenSSL" */;
+			package = 239AAE5E26DFF38A0053DD28 /* XCRemoteSwiftPackageReference "OpenSSL" */;
 			productName = OpenSSL;
 		};
 		2399758D26DFEC5B00F721B4 /* OpenSSL */ = {

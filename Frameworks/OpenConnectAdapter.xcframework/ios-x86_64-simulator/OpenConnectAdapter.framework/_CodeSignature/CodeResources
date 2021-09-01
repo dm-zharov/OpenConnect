@@ -57,10 +57,6 @@
 	<dict>
 		<key>Headers/NetworkInterfaceManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RdGD2U4MUIBIsTyYuCGj0vxRnK0=
-			</data>
 			<key>hash2</key>
 			<data>
 			Evg25hAXdhpCgYSEN24N9oDtL6PipSZg+C1/8u8tAGU=
@@ -68,10 +64,6 @@
 		</dict>
 		<key>Headers/OpenConnectAdapter-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RaLpiZrx4dOoJAhigXCrmkMAT/0=
-			</data>
 			<key>hash2</key>
 			<data>
 			M+GAckaCOTKvNevHUR0bFqPyfInTpZfoAmHBTDK0HeM=
@@ -79,10 +71,6 @@
 		</dict>
 		<key>Headers/OpenConnectAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/dUbSv23dl9GLld1rltWDbQ4B18=
-			</data>
 			<key>hash2</key>
 			<data>
 			afveTRdnP2O+JUhlwoEqE9kxT6gqIFoaQmE7dP4w/M0=
@@ -90,10 +78,6 @@
 		</dict>
 		<key>Headers/OpenConnectAdapterDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			klr5IIKq5Fu/tPB42HGEIyhUqNE=
-			</data>
 			<key>hash2</key>
 			<data>
 			zBsGo2Wv9mkLVSu4GeH095aGiT3CUFaJ/l5Scy5PsZE=
@@ -101,10 +85,6 @@
 		</dict>
 		<key>Headers/OpenConnectAdapterEvent.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			js2lQ3XPTN/kusM9vr6S6iyobMY=
-			</data>
 			<key>hash2</key>
 			<data>
 			SEZnpz4FapSg5mffAWyDquI93yOx+YIEg8adoPupn10=
@@ -112,10 +92,6 @@
 		</dict>
 		<key>Headers/OpenConnectAdapterPacketFlow.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W8zDK17KK8sJfaXWTwOlw5oegq8=
-			</data>
 			<key>hash2</key>
 			<data>
 			0pcvvuwxy/K3ZcaEDxFBJ/cuHpJUU7jBd9Tz5SFvxQc=
@@ -123,10 +99,6 @@
 		</dict>
 		<key>Headers/OpenConnectCertificate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UoUIrkAhEglQIHCzTPmiXmEIoRM=
-			</data>
 			<key>hash2</key>
 			<data>
 			CCF8djhV6DDWPMIxQuvsSMPkmWLZRLTzFQv1SLNWvuk=
@@ -134,10 +106,6 @@
 		</dict>
 		<key>Headers/OpenConnectConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yWhqv7cb/FVjNVV0aV9SSU1KaY8=
-			</data>
 			<key>hash2</key>
 			<data>
 			mbm/0AEuKamxe1gjG7GygClqWTIqtOJ5Kz1ZF8mj92g=
@@ -145,10 +113,6 @@
 		</dict>
 		<key>Headers/OpenConnectError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N4s6Jo7XGltrsEvB7VYvBUQf/0w=
-			</data>
 			<key>hash2</key>
 			<data>
 			9Iwx1dniO9TfOhkW9zLexeez56qW1j1loj8+YkLiE44=
@@ -156,10 +120,6 @@
 		</dict>
 		<key>Headers/OpenConnectPrivateKey.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eZYQmV57Huz60NQBFk3+Klr7fF4=
-			</data>
 			<key>hash2</key>
 			<data>
 			s46f58xCVvpuj2L2vf8Hy5hP6Cleq7XYAI6dzOtjLwc=
@@ -167,10 +127,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XW8Aa7CitfL6yfD5VHa+ASxwgO4=
-			</data>
 			<key>hash2</key>
 			<data>
 			NkmzNqfJTrBK0Bwqimqh0k9IKPxYwAhFRFYSSKRxmxA=
